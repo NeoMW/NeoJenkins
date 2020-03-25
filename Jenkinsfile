@@ -7,21 +7,21 @@ node {
             checkout scm
         }
         stage ('Build') {
-            sh "echo 'shell scripts to build project...'"
+            bat "echo 'shell scripts to build project...'"
         }
         stage ('Tests') {
             parallel 'static': {
-                sh "echo 'shell scripts to run static tests...'"
+                bat "echo 'shell scripts to run static tests...'"
             },
             'unit': {
-                sh "npm test"
+                bat "npm test"
             },
             'integration': {
-                sh "echo 'shell scripts to run integration tests...'"
+                bat "echo 'shell scripts to run integration tests...'"
             }
         }
         stage ('Deploy') {
-            sh "echo 'shell scripts to deploy to server...'"
+            bat "echo 'shell scripts to deploy to server...'"
         }
     } catch (err) {
         currentBuild.result = 'FAILED'
