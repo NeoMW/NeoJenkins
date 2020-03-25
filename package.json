@@ -2,8 +2,10 @@
   "name": "lol7",
   "version": "1.0.0",
   "description": "stuff for lab4",
-  "main": "index.js",
+  "main": "app.js",
+
   "scripts": {
+    "start": "node app.js",
     "test": "mocha"
   },
   "repository": {
