@@ -14,7 +14,7 @@ node {
                 bat "echo 'shell scripts to run static tests...'"
             },
             'unit': {
-                bat "echo 'shell scripts to run unit tests...'"
+                bat "npm test"
             },
             'integration': {
                 bat "echo 'shell scripts to run integration tests...'"
