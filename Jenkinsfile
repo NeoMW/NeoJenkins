@@ -7,7 +7,7 @@ node {
             checkout scm
         }
         stage ('Build') {
-            bat "echo 'shell scripts to build project...'"
+            bat "npm i"
         }
         stage ('Tests') {
             parallel 'static': {
