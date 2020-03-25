@@ -21,7 +21,7 @@ node {
             }
         }
         stage ('Deploy') {
-            bat "echo 'shell scripts to deploy to server...'"
+            bat "npm start"
         }
     } catch (err) {
         currentBuild.result = 'FAILED'
