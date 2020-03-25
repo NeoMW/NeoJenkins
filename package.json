@@ -1,0 +1,22 @@
+{
+  "name": "lol7",
+  "version": "1.0.0",
+  "description": "stuff for lab4",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeoMW/NeoJenkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeoMW/NeoJenkins/issues"
+  },
+  "homepage": "https://github.com/NeoMW/NeoJenkins#readme",
+  "dependencies": {
+    "mocha": "^7.1.1"
+  }
+}
