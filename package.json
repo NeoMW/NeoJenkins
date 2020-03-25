@@ -1,0 +1,26 @@
+{
+  "name": "neojenkins",
+  "version": "1.0.0",
+  "description": "jenkinsLearing",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeoMW/NeoJenkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeoMW/NeoJenkins/issues"
+  },
+  "homepage": "https://github.com/NeoMW/NeoJenkins#readme"
+}
